@@ -1,0 +1,31 @@
+5 Tables:
+animals:
+    animal_id
+    animal_name
+    animal_age
+    animal_color
+    animal_temperament
+
+animal_species:
+    species_id
+    animal_id
+
+animal_breed:
+    breed_id
+    animal_id
+
+potential_owners:
+    owner_id
+    owner_name
+    owner_email
+    owner_phone
+
+
+potential_owner_preferences:
+    preference_id
+    owner_id
+    pref_color
+    pref_age
+    pref_temperament
+    pref_species
+    pref_breed
